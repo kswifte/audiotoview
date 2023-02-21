@@ -1,0 +1,29 @@
+{
+    "name": "audiotoview",
+    "version": "1.1.1",
+    "description": "",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "browser": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c rollup.config.js"
+    },
+    "keywords": [
+        "前端",
+        "typescript",
+        "音频可视化",
+        "canvas"
+    ],
+    "author": "",
+    "files": [
+        "dist"
+    ],
+    "license": "ISC",
+    "devDependencies": {
+        "rollup": "^2.78.1",
+        "rollup-plugin-dts": "^4.2.2",
+        "rollup-plugin-typescript2": "^0.32.1",
+        "typescript": "^4.9.5"
+    }
+}

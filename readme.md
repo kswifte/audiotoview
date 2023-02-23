@@ -2,6 +2,8 @@
 
 ## use
 
+npm install audiotoview
+
 ### You need a target node, which will be used for visual presentation
 
 ```html
@@ -11,6 +13,7 @@
 ### options object
 
 ```javascript
+
 options = {
     /**
      * 插入乐谱根元素
@@ -30,6 +33,7 @@ options = {
      */
     size?: number
 }
+initToShow(options)
 ```
 
 ### Pass the configuration to audioToShow
@@ -38,7 +42,7 @@ options = {
 const el = document.getElementById('container')
 const url =
     'https://dl.stream.qqmusic.qq.com/C4000004d30U0tsdrH.m4a?guid=5306109274&vkey=396BC7D7A2B9B22E14854BEC5D7FA7637553FA74D934FD77F9513EC0C42D9C34EC3A955680AFAC5780842B5A442C48BE693650E20F3B4AEA&uin=&fromtag=120032'
-initToShow({ el, url, color: 'yellow', size: 4 })
+initToShow({ el, url, color: 'red', size: 2 })
 ```
 
 ### you will get it
